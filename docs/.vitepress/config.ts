@@ -2,9 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'One-Admin',
+  title: 'One-Admin1',
   description: 'A VitePress Site',
-  head: [['link', { rel: 'icon', href: '/icon1.webp' }]],
+  head: [['link', { rel: 'icon', href: '/vite.svg' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
