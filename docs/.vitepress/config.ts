@@ -2,9 +2,12 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'One-Admin1',
+  title: 'One-Admin',
   description: 'A VitePress Site',
-  head: [['link', { rel: 'icon', href: '/vite.svg' }]],
+  vite: {
+    publicDir: '../public' // 相对于 .vitepress 目录的路径
+  },
+  head: [['link', { rel: 'icon', href: '/icon.svg' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
